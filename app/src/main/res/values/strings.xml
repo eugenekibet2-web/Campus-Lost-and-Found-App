@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Campus Lost and Found</string>
+    <string name="welcome_msg">Welcome! Help reunite lost belongings with their owners across campus.</string>
+    <string name="btn_report_lost">Report Lost Item</string>
+    <string name="btn_report_found">Report Found Item</string>
+    <string name="btn_view_items">View Items</string>
+    <string name="btn_submit">Submit Report</string>
+
+    <string-array name="categories_array">
+        <item>Electronics</item>
+        <item>Documents</item>
+        <item>Bags</item>
+        <item>Clothing</item>
+        <item>Keys &amp; Accessories</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_category_array">
+        <item>All Categories</item>
+        <item>Electronics</item>
+        <item>Documents</item>
+        <item>Bags</item>
+        <item>Clothing</item>
+        <item>Keys &amp; Accessories</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_status_array">
+        <item>All Status</item>
+        <item>Lost</item>
+        <item>Found</item>
+        <item>Claimed/Returned</item>
+    </string-array>
+</resources>

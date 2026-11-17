@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_light"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_menu_search"
+        android:tint="@color/primary"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_msg"
+        android:textSize="15sp"
+        android:textColor="@color/text_muted"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnReportLost"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/btn_report_lost"
+        android:backgroundTint="@color/lost_red"
+        android:textSize="16sp"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/btnReportFound"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/btn_report_found"
+        android:backgroundTint="@color/found_green"
+        android:textSize="16sp"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/btnViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/btn_view_items"
+        android:backgroundTint="@color/primary"
+        android:textSize="16sp"/>
+
+</LinearLayout>
